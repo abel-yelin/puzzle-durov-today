@@ -1,5 +1,5 @@
 ---
-title: "Major: A Dynamic, Database-Free Website Solution"
+title: "today major daily puzzle durov for november 8 2024"
 description: "Explore the features and implementation of Major, an innovative open-source project that combines Next.js, Tailwind CSS, and GitHub API for content management."
 date: "2024-08-11"
 ---

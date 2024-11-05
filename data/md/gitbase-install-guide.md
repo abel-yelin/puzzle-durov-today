@@ -1,5 +1,5 @@
 ---
-title: "Installing and Deploying Major: A Step-by-Step Guide"
+title: "today major daily puzzle durov for november 8 2024"
 description: "A comprehensive guide for setting up Major locally and deploying it to Vercel, suitable for beginners."
 date: "2024-08-11"
 ---

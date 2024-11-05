@@ -1,5 +1,5 @@
 ---
-title: Accessing the Admin Panel and Managing Resources in Major
+title: today major daily puzzle durov for november 10 2024
 description: How to access the admin panel and manage your resource list in Major
 date: '2024-08-11T13:14:40.737Z'
 ---

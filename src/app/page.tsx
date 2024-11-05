@@ -5,6 +5,8 @@ import { getSortedPostsData } from '@/lib/posts'
 import ResourceList from '@/components/ResourceList'
 import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
+import { YouTubeEmbed } from '@/components/YouTubeEmbed';
+import { featuredVideos } from '@/config/videos';
 
 export const metadata: Metadata = {
   title: 'puzzle durov today',
@@ -18,6 +20,7 @@ export default function Home() {
 
   return (
     <div className="container mx-auto py-12 space-y-16">
+      
       <section className="text-center space-y-4">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
           puzzle durov today
@@ -27,9 +30,25 @@ export default function Home() {
         Here Is Today’s "Major" Telegram Game Puzzle Durov Combo,MAJOR is now featured in Bitget Pre-Market, giving users the chance to engage in OTC token trades ahead of spot trading. This is an excellent opportunity to enhance your returns!.
         </p>
       </section>
+      <section className="my-12">
+        <h2 className="text-2xl font-bold mb-6 text-center">精选视频</h2>
+        <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
+          {featuredVideos.map((video) => (
+            <YouTubeEmbed
+              key={video.id}
+              videoId={video.id}
+              thumbnailUrl={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
+              title={video.title}
+              description={video.description}
+              className="w-full shadow-lg rounded-lg overflow-hidden"
+            />
+          ))}
+        </div>
+      </section>
 
       <ResourceList resources={resources} />
       <ArticleList articles={allPostsData} />
+
     </div>
   )
 }

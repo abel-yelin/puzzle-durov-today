@@ -1,5 +1,5 @@
 ---
-title: Configuring Environment Variables for Major
+title: today major daily puzzle durov for november 9 2024
 description: How to configure Major environment variables
 date: '2024-08-11T13:08:05.474Z'
 ---

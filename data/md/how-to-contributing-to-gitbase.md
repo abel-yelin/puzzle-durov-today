@@ -1,5 +1,6 @@
 ---
-title: Contributing to Major
+title: today major daily puzzle durov for november 7 2024
+
 description: >-
   Hi, I'm Qiayue, creator of Major. I'm excited to welcome you to our project
   and look forward to your contributions in making Major even better!
